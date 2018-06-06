@@ -1,0 +1,669 @@
+﻿<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Tutorial del Submódulo DSAUPOO</title>
+ 
+ <!--grupo CSS-->
+ <link rel="stylesheet" href="css/tema10.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ 
+ <!--grupo JavaScript-->
+ <script src="js/jquery-1.11.2.min.js"></script>
+ <script src="js/jquery.mobile-1.4.5.min.js"></script>
+ <script src="phonegap.js"></script>
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+</head>
+ <body onLoad="MM_preloadImages('imagenes/visual_basic.png','imagenes/visualstudio1.jpg','imagenes/basededatos2.jpg','imagenes/programas2.jpg','imagenes/dsaupoo_2.jpg','imagenes/si2.jpg')">
+ 
+ <div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>DSAUPOO</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>DSAUPOO(intro)</h1>
+   <div>
+     <center>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('dsaupoo_vista','','imagenes/visual_basic.png',1)"><img src="imagenes/programador11.jpg" width="299" height="169" id="dsaupoo_vista"></a><br><img src="imagenes/programador6.jpg"width="50%" height="50%"><img src="imagenes/programador7.jpg"width="50%" height="50%">
+=======
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('dsaupoo_vista','','imagenes/visual_basic.png',1)"><img src="imagenes/tutorial4.jpg" width="50%" height="50%" id="dsaupoo_vista"></a><br><img src="imagenes/programador6.jpg"width="50%" height="50%"><img src="imagenes/programador7.jpg"width="50%" height="50%">
+>>>>>>> 0b2f31e4377be2f0cb7e8ac29f384283dc19e8e4
+     </center></div>
+   <div></div>
+  </div>
+ </div>
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+  
+ <div>
+ <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>DSAUPOO</h2>
+ </a>
+ </li>
+ <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Programa, necesario, para iniciar</h1>
+   <div>
+     <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('visual_studio','','imagenes/visualstudio1.jpg',1)"><img src="imagenes/visualstudio2.jpg" width="60%" height="60%" id="visual_studio"></a><img src="imagenes/programador7.jpg"width="50%" height="50%"></center></div>
+   <div></div>
+  </div>
+ </div>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>LO QUE DEBES DE SABER </h2>
+ </a>
+ </li>
+ 
+  <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>BD(Base de Datos), para Sistemas de Información</h1>
+   <div>
+   <center>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('base_de_datos','','imagenes/basededatos2.jpg',1)"><img src="imagenes/basededatos1.jpg" width="60%" height="60%" id="base_de_datos"></a><img src="imagenes/programador9.jpg"width="50%" height="50%"><img src="imagenes/programador2.jpeg"width="50%" height="50%">
+   </center>
+      </div>
+   <div></div>
+  </div>
+ </div>
+ 
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Bases de Datos (BD)</h2>
+ </a>
+ </li>
+ 
+ <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Resultados que te esperan</h1>
+   <div>
+     <center>
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/resultado1.jpg" alt="resultado1" title="resultado1" id="wows1_0"/></li>
+		<li><img src="data1/images/resultado2.jpg" alt="resultado2" title="resultado2" id="wows1_1"/></li>
+		<li><img src="data1/images/resultado3.jpg" alt="resultado3" title="resultado3" id="wows1_2"/></li>
+		<li><img src="data1/images/resultado4.jpg" alt="resultado4" title="resultado4" id="wows1_3"/></li>
+		<li><img src="data1/images/resultado5.jpg" alt="resultado5" title="resultado5" id="wows1_4"/></li>
+		<li><img src="data1/images/resultado6.jpg" alt="resultado6" title="resultado6" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/resultado7.jpg" alt="wow slider" title="resultado7" id="wows1_6"/></a></li>
+		<li><img src="data1/images/resultado8.jpg" alt="resultado8" title="resultado8" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="resultado1"><span><img src="data1/tooltips/resultado1.jpg" alt="resultado1"/>1</span></a>
+		<a href="#" title="resultado2"><span><img src="data1/tooltips/resultado2.jpg" alt="resultado2"/>2</span></a>
+		<a href="#" title="resultado3"><span><img src="data1/tooltips/resultado3.jpg" alt="resultado3"/>3</span></a>
+		<a href="#" title="resultado4"><span><img src="data1/tooltips/resultado4.jpg" alt="resultado4"/>4</span></a>
+		<a href="#" title="resultado5"><span><img src="data1/tooltips/resultado5.jpg" alt="resultado5"/>5</span></a>
+		<a href="#" title="resultado6"><span><img src="data1/tooltips/resultado6.jpg" alt="resultado6"/>6</span></a>
+		<a href="#" title="resultado7"><span><img src="data1/tooltips/resultado7.jpg" alt="resultado7"/>7</span></a>
+		<a href="#" title="resultado8"><span><img src="data1/tooltips/resultado8.jpg" alt="resultado8"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+     </center><br>
+     </div>
+   <div></div>
+  </div>
+ </div>
+ 
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2> para Desaupoo utilizaremos Visual Basic</h2>
+ </a>
+ </li>
+ 
+  <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Otros lenguajes, también, usados en DSAUPOO </h1>
+   <div>
+     <center>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('lenguajes','','imagenes/programas2.jpg',1)"><img src="imagenes/programas1.jpg" width="60%" height="60%" id="lenguajes"></a><img src="imagenes/programador11.jpg"width="50%" height="50%"><img src="imagenes/tutorial3.jpg"width="50%" height="50%">
+     </center><br>
+     </div>
+   <div></div>
+  </div>
+ </div>
+ 
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Controles comunes de Visual Basic</h2>
+ </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Contenedores</h2>
+ </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Reglas de Oro para diseño de GUI</h2>
+ </a>
+ </li>
+  <li class="ui-first-child ui-last-child">
+ <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Manual Técnico y de Usuario</h2>
+ </a>
+ </li>
+  <li class="ui-first-child ui-last-child">
+ <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Lo que tienes que aprender </h2>
+ </a>
+ </li>
+  <li class="ui-first-child ui-last-child">
+ <a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2>Desarrollador</h2>
+ </a>
+ </li>
+ </ul>
+ </div>
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="imagenes/programador2.jpeg" width="71" height="46">
+</div>
+<div>
+<h4>Aplicación 10</h4>
+<h4>Adolfo Andrade Rangel</h4>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>DSAUPOO</h1>
+ </div>
+  <div data-role="content" align="center">
+  <div>
+    <font face="Tahoma" size="5" color="#0066CC"><p>Es una técnica, método o manera para desarrollar soluciones computacionales utilizando componentes de software (objetos de software), a traves del siguiente lenguaje: Visual Basic.</p>
+   <b>Conceptos Fundamentales</b></font>
+   <font face="Tahoma" size="6" color="#FFFF66">
+   <ol type="1">
+   <li><b>Objeto:</b> Componente o código de software que contiene en sí mismo tanto sus características (campos) como sus comportamientos (métodos); se accede a través de su interfaz o signatura.
+   <li><b>Campo:</b> Es una característica de un objeto, que ayuda a definir su estructura y permite diferenciarlo de otros objetos. Se define con un identificador y un tipo, el cual indica los valores que puede almacenar. El conjunto de valores de los campos definen el estado del objeto.
+   <li><b>Método:</b> Es la implementación de un algoritmo que representa una operación o función que un objeto realiza. El conjunto de los métodos de un objeto determinan el comportamiento del objeto.
+ </ol></font>
+ <font face="Tahoma" size="5" color="#0066CC"><p>Es un paradigma de la programación de computadores; esto hace referencia al conjunto de teorías, estándares, modelos y métodos que permiten organizar el conocimiento, proporcionando un medio bien definido para visualizar el dominio del problema e implementar en un lenguaje de programación la solución a ese problema. Se basa en el modelo objeto donde el elemento principal es el objeto, el cual es una unidad que contiene todas sus características y comportamientos en sí misma, lo cual lo hace como un todo independiente pero que se interrelaciona con objetos de su misma clase o de otras clase, como sucede en el mundo real.</p></font><br>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('poo','','imagenes/dsaupoo_2.jpg',1)"><img src="imagenes/programador3.jpg" width="50%" height="50%" id="poo"></a><img src="imagenes/programador4.jpg"width="50%" height="50%"><br>
+   <font face="Helvetica" size="4" color="#9900CC">Para saber más, haz click <a href="https://msdn.microsoft.com/es-es/library/bb972232.aspx">AQUÍ</a></font>
+   </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="imagenes/programador2.jpeg" width="71" height="46">
+</div>
+   <h4>Aplicación 10</h4>
+   <h4>Adolfo Andrade Rangel</h4>
+   </div>
+  </div>
+  
+  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Sistema y Usuario</h1>
+ </div>
+  <div data-role="content" align="center">
+  <div>
+   <font face="Tahoma" size="5" color="#0066CC"><p><i><b>Sistema:</b></i> Conjunto de partes o elementos organizados y relacionadosque interactúan entre sí, para lograr un objetivo. Cada sistema existe en otro más grande, por lo tanto, un sistema puede estar formado por <b>subsistemas</b>, y a la vez puede ser parte se un <b>supersistema.</b> En Informática y Programación, puede ser definido como un sistema de información que basa la parte fundamental de su procesamiento, en el empleo de la computación, como cualquier sistema, es un conjunto de funciones interrelacionadas, hardware, software y de Recurso Humano. Un sistema informático normal emplea un sistema que usa dispositivos que se usan para programar y almacenar programas y datos.
+Si además de la información, es capaz de almacenar y difundir los conocimientos que se generan sobre cierta temática, tanto dentro, como en el entorno de la entidad, entonces está en presencia de un sistema de gestión de información y conocimientos. Como utilizador final emplea esa información en dos actividades fundamentales: la toma de decisiones y el control.</p></font>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('si','','imagenes/si2.jpg',1)"><img src="imagenes/programador19.jpg" width="50%" height="50%" id="si"></a>
+   <img src="imagenes/programador1.jpg"width="50%" height="50%"><img src="imagenes/programador18.jpg"width="50%" height="50%"><br>
+   <font face="Helvetica" size="4" color="#9900CC">Para más detalles, haz click<a href="https://www.ecured.cu/Sistema_inform%C3%A1tico">AQUÍ</a></font><br>
+    <font face="Tahoma" size="5" color="#0066CC"><p><i><b>Usuario:</b></i> Aquella persona que usa algo para una función en específico, es necesario que el usuario tenga la conciencia de que lo que está haciendo tiene un fin lógico y conciso, sin embargo, el termino es genérico y se limita en primera estancia a describir la acción de una persona que usa algo. El que usa algo es porque lo necesita, si estas frente a un cajero automático por que necesitas que este te dispense dinero te conviertes en un usuario del banco y de los servicios electrónicos que este presta. El concepto de usuario toma mayor forma y relevancia en la sociedad desde los inicios de la computación, el auge de la tecnología y de los sistemas de seguridad para programas en la internet y las redes de datos introdujo un nuevo concepto y aplicación para el usuario.</p></font>
+<img src="imagenes/usuario.jpg" width="60%" height="60%"><img src="imagenes/programador19.jpg" width="50%" height="50%"><br>
+<font face="Helvetica" size="4" color="#9900CC">Para más detalles, haz click<a href="https://www.definicionabc.com/tecnologia/usuario.php">AQUÍ</a></font><br>
+   </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="imagenes/programador2.jpeg" width="71" height="46">
+</div>
+   <h4>Aplicación 10</h4>
+   <h4>Adolfo Andrade Rangel</h4>
+   </div>
+  </div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Bases de Datos</h1>
+ </div>
+  <div data-role="content" align="center">
+  <div>
+  <font face="Tahoma" size="5" color="#0066CC"><p>Todas las empresas requieren almacenar información. Desde siempre lo han hecho. La
+información puede ser de todo tipo. Cada elemento informativo (nombre, dirección, sueldo, etc.)
+es lo que se conoce como dato (en inglés data).Las soluciones utilizadas por las empresas para almacenar los datos son diversas. Antes de la
+aparición de la informática se almacenaban en ficheros con cajones y carpetas y fichas. Tras la
+aparición de la informática estos datos se almacenan en archivos digitales dentro de las unidades de
+almacenamiento del ordenador (a veces en archivos binarios, o en hojas de cálculo,...).</p></font><br>
+<img src="imagenes/basededatos1.jpg" width="50%" height="50%"><img src="imagenes/programador8.jpg"width="50%" height="50%">
+<img src="imagenes/programador15.jpg"width="50%" height="50%"><br>
+<font face="Helvetica" size="4" color="#9900CC">Para más detalles, haz click<a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxjYnRpczU3fGd4Ojc4MDdhM2RmNDhjNzM2N2Y">AQUÍ</a></font><br>
+ </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="imagenes/programador2.jpeg" width="71" height="46">
+</div>
+   <h4>Aplicación 10</h4>
+   <h4>Adolfo Andrade Rangel</h4>
+   </div>
+  </div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Visual Basic(Lenguaje que utilizaremos en este tutorial)</h1>
+ </div>
+  <div data-role="content" align="center">
+  <div>
+   <font face="Tahoma" size="5" color="#0066CC"><p>Es un lenguaje de programación desarrollado por el alemán Alan Cooper para Microsoft. El lenguaje de programación es un dialecto de BASIC, con importantes agregados. Su primera versión fue presentada en 1991, con la intención de simplificar la programación utilizando un ambiente de desarrollo completamente gráfico que facilitara la creación de interfaces gráficas y, en cierta medida, también la Programación misma. Desde el 2001 Microsoft ha propuesto abandonar el desarrollo basado en la API Win32 y pasar a trabajar sobre un framework o marco común de librerías independiente de la versión del sistema operativo, NET Framework, a través de Visual Basic, NET (y otros lenguajes como C Sharp (C#) de fácil transición de código entre ellos). Consiste en un editor de código (programa donde se escribe el código fuente), un depurador (programa que corrige errores en el código fuente para que pueda ser bien compilado), un compilador (programa que traduce el código fuente a lenguaje de máquina), y un constructor de interfaz gráfica o GUI (es una forma de programar en la que no es necesario escribir el código para la parte gráfica del Programa, sino que se puede hacer de forma visual).</p></font><br>
+   <img src="imagenes/visualbasic.jpg" width="60%" height="60%"><img src="imagenes/programador9.jpg"width="50%" height="50%"><br>
+<font face="Helvetica" size="4" color="#9900CC">Para leer más , haz click<a href="https://www.ecured.cu/Visual_Basic">AQUÍ</a></font><br>
+  <font face="Tahoma" size="5" color="#0066CC"><p>¡Vamos a practicar!, los siguientes videos te muestran tus primeros ejercicios en VB</p></font><br>
+  <div data-role="main" class="ui-content" align="center">
+  <div style="width:80%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+  <li class="ui-first-child ui-last-child">
+  <a href="https://www.youtube.com/watch?v=OZ1liGBRT9E" data-role="button">
+  <h2>intenta hacer esta 1 prueba </h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="https://http://www.mailxmail.com/curso-manual-visual-basic-principiante" data-role="button">
+  <h2>intenta hacer esta 2 prueba</h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="https://http://www.mailxmail.com/curso-manual-visual-basic-principiante" data-role="button">
+  <h2>intenta hacer esta 3 pruba </h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="https://http://www.mailxmail.com/curso-manual-visual-basic-principiante" data-role="button">
+  <h2>intenta hacer esta 4 prueba</h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="https://http://www.mailxmail.com/curso-manual-visual-basic-principiante" data-role="button">
+  <h2>intenta hacer esta 5 prueba </h2>
+  </a>
+  </li>
+  </ul>
+  </div>
+  </div>
+  
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="imagenes/programador2.jpeg" width="71" height="46">
+</div>
+   <h4>Aplicación 10</h4>
+   <h4>Adolfo Andrade Rangel</h4>
+  </div>
+  </div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Controles comunes de Visual Basic</h1>
+ </div>
+  <div data-role="content" align="center">
+  <div>
+  <font face="Tahoma" size="4" color="#000000">
+  <table width="60%" border="1">
+  <tr>
+    <td bgcolor="#666666">Nombre</td>
+    <td bgcolor="#FFFF00"><b>Prefijo</b></td>
+    <td bgcolor="#666666">Descripción</td>
+  </tr>
+  <tr>
+    <td>Button</td>
+    <td bgcolor="#FFFF00"><b>btn</b></td>
+    <td>Se utiliza para iniciar, detener o interrumpir un proceso.</td>
+  </tr>
+  <tr>
+    <td>CheckBox</td>
+    <td bgcolor="#FFFF00"><b>chk</b></td>
+    <td>Muestra una casilla de verificación y una etiqueta para texto. Se utiliza, en general, para establecer opciones.</td>
+  </tr>
+  <tr>
+    <td>CheckedListBox</td>
+    <td bgcolor="#FFFF00"><b>clb</b></td>
+    <td>Muestra una lista desplazable de elementos, cada uno acompañado por una casilla de verificación.</td>
+  </tr>
+  <tr>
+    <td>ComboBox</td>
+    <td bgcolor="#FFFF00"><b>cbo</b></td>
+    <td>Muestra una lista desplegable de elementos.</td>
+  </tr>
+  <tr>
+    <td>DateTimePicker</td>
+    <td bgcolor="#FFFF00"><b>dtp</b></td>
+    <td>Muestra un calendario gráfico desplegable, que permite que los usuarios seleccionen una fecha o una hora.</td>
+  </tr>
+  <tr>
+    <td>Label</td>
+    <td bgcolor="#FFFF00"><b>lbl</b></td>
+    <td>Muestra texto que los usuarios no pueden modificar directamente.</td>
+  </tr>
+  <tr>
+    <td>LinkLabel</td>
+    <td bgcolor="#FFFF00"><b>llbl</b></td>
+    <td>Muestra texto en forma de vínculo de estilo Web y desencadena un evento cuando el usuario hace clic en el texto.</td>
+  </tr>
+  <tr>
+    <td>ListBox</td>
+    <td bgcolor="#FFFF00"><b>lst</b></td>
+    <td>Muestra una lista de textos, también llamados elementos.</td>
+  </tr>
+  <tr>
+    <td>ListView</td>
+    <td bgcolor="#FFFF00"><b>lstv</b></td>
+    <td>Muestra los elementos ya sean texto solo o con gráficos (iconos)</td>
+  </tr>
+  <tr>
+    <td>MaskedTextBox</td>
+    <td bgcolor="#FFFF00"><b>msk
+      </b></td>
+    <td>Captura texto escrito por el usuario, ya sea teniendo un formato de entrada.</td>
+  </tr>
+  <tr>
+    <td>MonthCalender</td>
+    <td bgcolor="#FFFF00"><b>mnc</b></td>
+    <td>Muestra un calendario gráfico que permite que los usuarios seleccionen un intervalo de fecha.</td>
+  </tr>
+  <tr>
+    <td>NotifyIcon</td>
+    <td bgcolor="#FFFF00"><b>nti</b></td>
+    <td>Muestra un icono, en el área de notificación de estado de la barra de tareas, que representa una aplicación que se ejecuta en segundo plano.</td>
+  </tr>
+  <tr>
+    <td>NumericUpDown</td>
+    <td bgcolor="#FFFF00"><b>nud</b></td>
+    <td>Muestra una lista de número a través de la cual los usuarios se pueden desplazar mediante botones hacia arriba y hacia abajo.</td>
+  </tr>
+  <tr>
+    <td>PictureBox</td>
+    <td bgcolor="#FFFF00"><b>pic</b></td>
+    <td>Muestra archivos de imágenes, tales como mapas bits e iconos, gifs, etc.</td>
+  </tr>
+  <tr>
+    <td>ProgressBar</td>
+    <td bgcolor="#FFFF00"><b>pgb</b></td>
+    <td>Muestra una barra de progreso, mientras realiza una instrucción.</td>
+  </tr>
+  <tr>
+    <td>RadioButton
+      </td>
+    <td bgcolor="#FFFF00"><b>rdb</b></td>
+    <td>Muestra un botón que puede activarse o desactivarse.</td>
+  </tr>
+  <tr>
+    <td>RichTextBox</td>
+    <td bgcolor="#FFFF00"><b>rtb</b></td>
+    <td>Habilita la presentación del texto con formato de texto sencillo o de texto enriquecido (RTF).</td>
+  </tr>
+  <tr>
+    <td>TextBox</td>
+    <td bgcolor="#FFFF00"><b>txt</b></td>
+    <td>Muestra texto escrito en tiempo de diseño que puede ser editado por los usuarios en tiempo de ejecución.</td>
+  </tr>
+  <tr>
+    <td>ToolTip</td>
+    <td bgcolor="#FFFF00"><b>
+      ttp</b></td>
+    <td>Este control activa la propiedad ToolTip en los demás controles, su función es brindar una pequeña información al pasar el Mouse por el control que queramos.</td>
+  </tr>
+  <tr>
+    <td>TreeView</td>
+    <td bgcolor="#FFFF00"><b>trv</b></td>
+    <td>Muestra una colección jerárquica de objetos de nodo que puede constar de texto con casilla de verificación o iconos opcionales.</td>
+  </tr>
+  <tr>
+    <td>WebBrowser</td>
+    <td bgcolor="#FFFF00"><b>wbr</b></td>
+    <td>Permite crear un explorador de Internet con fácil navegación, también se puede abrir múltiples archivos.</td>
+  </tr>
+</table>
+</font>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="imagenes/programador2.jpeg" width="71" height="46">
+</div>
+   <h4>Aplicación 10</h4>
+   <h4>Adolfo andrade Rangel</h4>
+  </div>
+  </div>
+  
+ <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Contenedores</h1>
+ </div>
+  <div data-role="content" align="center">
+  <div>
+  <font size="4" face="Tahoma" color="#000000">
+  <table width="60%" border="1">
+  <tr>
+    <td bgcolor="#666666">Nombre</td>
+    <td bgcolor="#FFFF00"><b>Prefijo</b></td>
+    <td bgcolor="#666666">Descripción</td>
+  </tr>
+  <tr>
+    <td>FlowLayoutPanel</td>
+    <td bgcolor="#FFFF00"><b>flp</b></td>
+    <td>Es un contenedor de controles que no permite la modificación de la posición del control.</td>
+  </tr>
+  <tr>
+    <td>GroupBox</td>
+    <td bgcolor="#FFFF00"><b>gpb</b></td>
+    <td>Agrupa un conjunto de controles ( como botones de opción) en un marco con etiqueta.</td>
+  </tr>
+  <tr>
+    <td>Panel</td>
+    <td bgcolor="#FFFF00"><b>pnl</b></td>
+    <td>Agrupa un conjunto de controles en un marco sin etiqueta que permite el desplazamiento.</td>
+  </tr>
+  <tr>
+    <td>SplitContainer</td>
+    <td bgcolor="#FFFF00"><b>spc</b></td>
+    <td>Es un contenedor de controles con dos paneles, en donde se puede insertar cualquier tipo de control.</td>
+  </tr>
+  <tr>
+    <td>TabControl</td>
+    <td bgcolor="#FFFF00"><b>tbc</b></td>
+    <td>Proporciona una página con fichas para organizar y tener acceso a controles agrupados de forma eficiente.</td>
+  </tr>
+  <tr>
+    <td>TableLayoutPanel</td>
+    <td bgcolor="#FFFF00"><b>tlp</b></td>
+    <td>Es un organizador de controles, ya que podemos añadir filas o columnas para control que queramos.</td>
+  </tr>
+  </table>
+  </font>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="imagenes/programador2.jpeg" width="71" height="46">
+</div>
+   <h4>Aplicación 10</h4>
+   <h4>Adolfo Andrade Rangel</h4>
+  </div>
+  </div>
+  
+  
+  <div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Reglas de Oro para diseño de GUI</h1>
+ </div>
+  <div data-role="content" align="center">
+  <div>
+  <font face="Tahoma" size="5" color="#0066CC">
+  <ol type="I">
+  <li>Coherencia: Es muy importante; que toda la aplicación se comporte siempre de manera predecible, tanto en el diseño y ubicación de sus elementos como en su funcionamiento.
+  <li>Atajos: Los usuarios más frecuentes deben poder utilizar atajos (p.e. mediante cookies, grabando información personal, etc.).
+  <li>Control: El usuario debe tener siempre el mando y una sensación de que controla el proceso, es decir, debe poder modificar sus datos personales, cambiar la dirección de envío de una compra, etc. Es fundamental que tenga la certeza de que puede utilizar la aplicación sin correr peligros ni riesgos. Es decir, que no es posible equivocarse sin que el sistema le advierta antes ni cometer un error sin poder restaurar el estado del proceso. Para ello hay que situar los botones “fatales” en lugares protegidos, nunca en sitios de paso, dotarles de un aspecto acorde a su función y diseñarlos de tal forma que soliciten confirmación.
+  <li>Proximidad: Las funciones principales deben aparecer inmediatamente, mientras que otras más avanzadas pueden situarse en un lugar menos visible para los nuevos usuarios. Además, los usuarios deben de tener siempre a mano las funcionalidades más utilizadas.
+  </ol>
+  </font>
+  <img src="imagenes/programa.jpg" width="50%" height="50%"><br>
+<font face="Helvetica" size="4" color="#9900CC">Para enterarte del resto de las reglas de oro, haz click<a href="https://www.docpath.com/art-golden-rules-of-user-interface-design/?lang=es">AQUÍ</a></font><br>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="imagenes/programador2.jpeg" width="71" height="46">
+</div>
+   <h4>Aplicación 10</h4>
+   <h4>Adolfo Andrade Rangel</h4>
+  </div>
+  </div>
+  
+  <div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Manual Técnico y de Usuario</h1>
+ </div>
+  <div data-role="content" align="center">
+  <div>
+  <font face="Tahoma" size="5" color="#CC9933"><p>Manual Técnico</p><br>
+  <p>El Manual Técnico pretende ofrecer información acerca de estructura que componen, materiales y técnicas usadas en la construccióno creación de Software o Hardware. Información que requiere para su compresión algún grado de conocimiento o experiencia. Sus elementos son los siguientes: objetivos y alcances del sistema, manual de normas, políticas y procedimientos de la organización en las que se basa el sistema para su implementación, descripción detallada de algoritmos en lenguaje natural y diagramas de flujo, descripción de bases de datos y diagramas de relación, diseño de reportes y pantallas.</p></font><br>
+  <img src="imagenes/tutorial6.jpg" width="60%" height="60%"><img src="imagenes/programador15.jpg"width="50%" height="50%"><br>
+  <font face="Tahoma" size="5" color="#CC9933"><p>Manual de Usuario</p><br>
+  <p> El manual de usuario es un documento técnico de un determinado sistema que intenta ofrecer y dar asistencia a sus usuarios. Son incluidos a dispositivos electrónicos, hardware de computadora y aplicaciones. </p></font><br>
+  <img src="imagenes/programador13.jpg" width="50%" height="50%"><br>
+  <font face="Helvetica" size="4" color="#9900CC">Para saber más de ambos manuales, y ponerlos en práctica, haz click<a href="https://prezi.com/ogxxyk_ialhn/manual-tecnico-y-manual-de-usuario/">AQUÍ</a></font>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="imagenes/programador2.jpeg" width="71" height="46">
+</div>
+   <h4>Aplicación 10</h4>
+   <h4>Adolfo Andrade Rangel</h4>
+  </div>
+  </div>
+  
+ <div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Aprendizajes Esperados</h1>
+ </div>
+  <div data-role="content" align="left">
+  <div>
+  <center><font face="Tahoma" size="5" color="#CC9933"><p>Después de estudiar y comprender este tutorial, tu serás capaz de hacer lo siguiente:</p></font></center>
+  <font face="Tahoma" size="6" color="#0099FF">
+  <ol type="1">
+  <li>Analizar y diseñar diversos sistemas</li>
+  <li>Programar y diseñar aplicaciones</li>
+  <li>Implementar y reproducir aplicaciones </li>desarrolladas
+  <li>Elaborar Manual Técnico y Manual de Usuario</li>
+  <li>Mantener Software de Aplicación ACTUALIZADO</li>
+  </ol>
+  </font><br>
+  <center><!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/tutorial1.jpg" alt="tutorial1" title="tutorial1" id="wows2_0"/></li>
+		<li><img src="data2/images/tutorial2.jpg" alt="tutorial2" title="tutorial2" id="wows2_1"/></li>
+		<li><img src="data2/images/tutorial3.jpg" alt="tutorial3" title="tutorial3" id="wows2_2"/></li>
+		<li><img src="data2/images/tutorial4.jpg" alt="tutorial4" title="tutorial4" id="wows2_3"/></li>
+		<li><img src="data2/images/tutorial5.jpg" alt="tutorial5" title="tutorial5" id="wows2_4"/></li>
+		<li><img src="data2/images/tutorial6.jpg" alt="tutorial6" title="tutorial6" id="wows2_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data2/images/tutorial7.jpg" alt="jquery slideshow" title="tutorial7" id="wows2_6"/></a></li>
+		<li><img src="data2/images/tutorial8.jpg" alt="tutorial8" title="tutorial8" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="tutorial1"><span><img src="data2/tooltips/tutorial1.jpg" alt="tutorial1"/>1</span></a>
+		<a href="#" title="tutorial2"><span><img src="data2/tooltips/tutorial2.jpg" alt="tutorial2"/>2</span></a>
+		<a href="#" title="tutorial3"><span><img src="data2/tooltips/tutorial3.jpg" alt="tutorial3"/>3</span></a>
+		<a href="#" title="tutorial4"><span><img src="data2/tooltips/tutorial4.jpg" alt="tutorial4"/>4</span></a>
+		<a href="#" title="tutorial5"><span><img src="data2/tooltips/tutorial5.jpg" alt="tutorial5"/>5</span></a>
+		<a href="#" title="tutorial6"><span><img src="data2/tooltips/tutorial6.jpg" alt="tutorial6"/>6</span></a>
+		<a href="#" title="tutorial7"><span><img src="data2/tooltips/tutorial7.jpg" alt="tutorial7"/>7</span></a>
+		<a href="#" title="tutorial8"><span><img src="data2/tooltips/tutorial8.jpg" alt="tutorial8"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">wowslider.net</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section --></center>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="imagenes/programador2.jpeg" width="71" height="46">
+</div>
+   <h4>Aplicación 10</h4>
+   <h4>Adolfo andrade Rangel</h4>
+  </div>
+  </div>
+  
+  <div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Datos del desarrollador</h1>
+ </div>
+  <div data-role="content" align="center">
+  <div>
+  <p><font color="#CC9933" size="5" face="Tahoma">Esta Aplicación fue desarrollada por:<br>
+  <img src="imagenes/yo.jpg" width="60%" height="60%"><br>
+  Nombre del Alumno: Adolfo Andrade<br>
+  Semestre: 4  Grupo:"H"</font></p>
+  <font color="#FF3333" size="5" face="Tahoma"><p>Otros datos<br>
+  Submódulo: DAM(Desarrolla Aplicaciones Móviles)<br>
+  Nombre del Docente: José Antonio Gómez Hernández</p></font>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+ <img src="imagenes/programador2.jpeg" width="71" height="46">
+</div>
+   <h4>Aplicación 10</h4>
+   <h4>Adolfo Andrade Rangel</h4>
+  </div>
+  </div>
+  
+</body>
+</html>
